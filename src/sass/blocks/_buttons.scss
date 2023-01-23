@@ -1,0 +1,17 @@
+.button {
+    font-family: 'Segoe UI Black', sans-serif;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #EF3124;
+    border-radius: 5px;
+    &--prev {
+        border: 2px solid rgba(11, 31, 53, 0.5);
+        background: transparent;
+        color: rgba(11, 31, 53, 0.5);
+    }
+}

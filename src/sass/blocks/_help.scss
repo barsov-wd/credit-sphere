@@ -1,0 +1,33 @@
+.help {
+    padding-top: 140px;
+    &__block {
+        text-align: center;
+        padding: 35px 0;
+        width: 100%;
+        border: 5px solid #DBDEE1;
+        border-radius: 5px;
+    }
+    &__block-title {
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 120%;
+        text-align: center;
+        color: #EF3124;
+        margin-bottom: 25px;
+    }
+    &__block-text {
+        width: 830px;
+        font-family: 'Segoe UI Semibold', sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 120%;
+        text-align: center;
+        color: #0B1F35;
+        margin: 0 auto 40px;
+    }
+    &__block-button {
+        width: 385px;
+        height: 60px;
+    }
+}

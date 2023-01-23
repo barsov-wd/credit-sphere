@@ -1,0 +1,2146 @@
+@media (max-width: 1669px) {
+    .container {
+        max-width: 1570px;
+    }
+    .advantages {
+        &__item {
+            width: 775px;
+        }
+        &__item-image {
+            width: 45%;
+            height: 100%;
+        }
+    }
+    .calc {
+        &__content-result {
+            width: 900px;
+        }
+        &__content-wrap {
+            width: 900px;
+        }
+        &__content-wrap-button {
+            width: 450px;
+        }
+        &__content-wrap-descr {
+            width: 450px;
+        }
+    }
+    .simply {
+        &__item {
+            &--one,
+            &--two {
+                &::before {
+                    right: -201px;
+                }
+            }
+        }
+    }
+    .profitably {
+        &__item {
+            width: 775px;
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1470px;
+    }
+    .promo {
+        padding-top: 105px;
+        &__inner {
+            margin-bottom: 65px;
+        }
+        &__image {
+            width: 600px;
+        }
+    }
+    .advantages {
+        padding-top: 130px;
+        &__title {
+            margin-bottom: 75px;
+        }
+        &__item {
+            width: 725px;
+        }
+    }
+    .calc {
+        padding-top: 130px;
+        &__title {
+            margin-bottom: 75px;
+        }
+        &__content-result {
+            padding: 30px 60px;
+            width: 800px;
+        }
+        &__content-wrap {
+            width: 800px;
+        }
+        &__content-result-title {
+            font-size: 44px;
+            line-height: 62px;
+        }
+        &__content-result-text {
+            margin-left: 13px;
+        }
+        &__content-wrap-button {
+            width: 425px;
+        }
+        &__content-wrap-descr {
+            width: 425px;
+        } 
+        &__content-wrap-block {
+            padding: 33px 45px;
+            width: 365px;
+        }
+        &__content-wrap-text {
+            margin-left: 10px;
+        }
+    }
+    .profit {
+        padding-top: 130px;
+        &__title {
+            margin-bottom: 75px;
+        }
+        &__box-item {
+            width: 230px;
+            text-align: center;
+        }
+    }
+    .steps {
+        padding-top: 130px;
+        &__title {
+            margin-bottom: 75px;
+        }
+        &__item {
+            width: 350px;
+        }
+    }
+    .about {
+        padding-top: 130px;
+        &__title {
+            margin-bottom: 75px;
+        }
+        &__image {
+            width: 770px;
+        }
+    }
+    .help {
+        padding-top: 130px;
+    }
+    .simply {
+        padding-top: 130px;
+        &__title {
+            margin-bottom: 75px;
+        }
+        &__item {
+            &--one,
+            &--two {
+                &::before {
+                    right: -155px;
+                }
+            }
+        }
+    }
+    .quiz {
+        padding-top: 130px;
+    }
+    .profitably {
+        padding-top: 130px;
+        &__title {
+            margin-bottom: 75px;
+        }
+        &__item {
+            width: 725px;
+            padding-left: 65px;
+        }
+    }
+    .faq {
+        padding-top: 130px;
+        &__title {
+            margin-bottom: 75px;
+        }
+        &__box {
+            max-width: 1060px;
+        }
+        &__item {
+            &__title {
+                font-size: 26px;
+            }
+        }
+    }
+    .auto-scroll {
+        padding-top: 130px;
+        &__title {
+            margin-bottom: 75px;
+        }
+    }
+    .reviews {
+        padding: 130px 0;
+        &__title {
+            margin-bottom: 75px;
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        max-width: 1370px;
+    }
+    .promo {
+        padding-top: 100px;
+        &__image {
+            width: 560px;
+        }
+        &__title {
+            font-size: 60px;
+            line-height: 78px;
+        }
+        &__subtitle {
+            font-size: 38px;
+            line-height: 51px;
+        }
+        &__inner {
+            margin-bottom: 60px;
+        }
+        &__item-title {
+            font-size: 26px;
+            line-height: 35px;
+        }
+    }
+    .advantages {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__item {
+            width: 675px;
+            padding-left: 30px;
+        }
+        &__item-image {
+            width: 43%;
+        }
+    }
+    .calc {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__box {
+            width: 630px;
+        }
+        &__content-result {
+            width: 725px;
+        }
+        &__content-wrap {
+            width: 725px;
+        }
+        &__content-wrap-button {
+            width: 355px;
+        }
+        &__content-wrap-descr {
+            width: 356px;
+            line-height: 20px;
+        }
+        &__content-result-title {
+            font-size: 38px;
+            line-height: 56px;
+        }
+        &__content-result {
+            padding: 30px 45px;
+        }
+        &__content-wrap-block {
+            width: 360px;
+        }
+    }
+    .profit {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__box-item {
+            width: 215px;
+        }
+    }
+    .steps {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__item {
+            width: 333px;
+        }
+        &__item-text {
+            font-size: 26px;
+        }
+    }
+    .about {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__image {
+            width: 670px;
+        }
+    }
+    .help {
+        padding-top: 120px;
+    }
+    .simply {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__item {
+            &--one,
+            &--two {
+                &::before {
+                    right: -105px;
+                    width: 150px;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+    .quiz {
+        padding-top: 120px;
+        &__card-image {
+            width: 535px;
+        }
+        &__card-inner {
+            margin-bottom: 70px;
+        }
+    }
+    .profitably {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__item {
+            width: 675px;
+            min-height: 425px;
+            padding-left: 45px;
+        }
+        &__item-descr {
+            width: 610px;
+            font-size: 19px;
+        }
+    }
+    .faq {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 70px;
+        }
+        &__image {
+            width: 300px;
+        }
+    }
+    .auto-scroll {
+        padding-top: 120px;
+        &__title {
+            margin-bottom: 70px;
+        }
+    }
+    .reviews {
+        padding: 120px 0;
+        &__title {
+            margin-bottom: 70px;
+        }
+    }
+    .footer {
+        &__logo {
+            font-size: 30px;
+        }
+        &__text {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        &__work-schedule {
+            font-size: 30px;
+            line-height: 41px;
+        }
+        &__address {
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1270px;
+    }
+    .header {
+        &__button {
+            width: 320px;
+        }
+    }
+    .promo {
+        padding-top: 95px;
+        &__image {
+            width: 515px;
+        }
+        &__title {
+            font-size: 58px;
+            line-height: 72px;
+        }
+        &__descr {
+            font-size: 26px;
+            line-height: 35px;
+        }
+        &__item-title {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        &__item-descr {
+            width: 350px;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    .advantages {
+        padding-top: 110px;
+        &__title {
+            margin-bottom: 65px;
+        }
+        &__item {
+            width: 625px;
+        }
+        &__item-title {
+            font-size: 25px;
+            line-height: 30px;
+        }
+        &__item-image {
+            width: 42%;
+        }
+    }
+    .calc {
+        padding-top: 110px;
+        &__title {
+            margin-bottom: 65px;
+        }
+        &__box {
+            width: 600px;
+        }
+        &__content-result {
+            padding: 30px 30px;
+            width: 650px;
+        }
+        &__content-wrap {
+            width: 650px;
+            align-items: flex-start;
+        }
+        &__content-wrap-button {
+            width: 320px;
+        }
+        &__content-wrap-descr {
+            width: 320px;
+            font-size: 15px;
+        }
+        &__content-wrap-block {
+            width: 320px;
+        }
+        &__content-result-title {
+            font-size: 34px;
+            line-height: 48px;
+        }
+        &__content-result-text {
+            font-size: 18px;
+        }
+    }
+    .profit {
+        padding-top: 110px;
+        &__title {
+            margin-bottom: 65px;
+        }
+        &__box-item {
+            width: 200px;
+        }
+    }
+    .steps {
+        padding-top: 110px;
+        &__title {
+            margin-bottom: 65px;
+        }
+        &__item {
+            width: 310px;
+        }
+        &__item-text {
+            font-size: 24px;
+        }
+    }
+    .about {
+        padding-top: 110px;
+        &__title {
+            margin-bottom: 65px;
+        }
+        &__image {
+            width: 570px;
+        }
+    }
+    .help {
+        padding-top: 110px;
+        &__block-title {
+            font-size: 42px;
+        }
+        &__block-text {
+            font-size: 26px;
+        }
+    }
+    .simply {
+        padding-top: 110px;
+        &__title {
+            margin-bottom: 65px;
+        }
+        &__item {
+            width: 350px;
+            &--one,
+            &--two {
+                &::before {
+                    right: -105px;
+                }
+            }
+        }
+        &__item-descr {
+            font-size: 18px;
+        }
+    }
+    .quiz {
+        padding-top: 110px;
+        &__card-inner {
+            margin-bottom: 65px;
+        }
+        &__card-image {
+            width: 450px;
+        }
+        &__list {
+            &__text {
+                font-size: 26px;
+            }
+        }
+
+    }
+    .last {
+        &__card-image {
+            width: 450px;
+        }
+    }
+    .profitably {
+        padding-top: 110px;
+        &__title {
+            margin-bottom: 65px;
+        }
+        &__item {
+            width: 625px;
+            min-height: 420px;
+            padding-left: 35px;
+        }
+        &__item-descr {
+            width: 575px;
+            font-size: 18px;
+        }
+        &__item-title {
+            margin-bottom: 30px;
+        }
+        &__item-text {
+            font-size: 22px;
+        }
+        &__item-text-one,
+        &__item-text-two {
+            font-size: 22px;
+        }
+    }
+    .faq {
+        padding-top: 110px;
+        &__title {
+            margin-bottom: 65px;
+        }
+        &__box {
+            max-width: 1010px;
+        }
+        &__item {
+            &__title {
+                font-size: 22px;
+            }
+        }
+    }
+    .auto-scroll {
+        padding-top: 110px;
+        &__title {
+            margin-bottom: 65px;
+        }
+        .swiper-slide {
+            text-align: center;
+        }
+    }
+    .reviews {
+        padding: 110px 0;
+        &__title {
+            margin-bottom: 65px;
+        }
+    }
+    .footer {
+        &__menu-item {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        &__descr {
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 1170px;
+    }
+    .header {
+        &__button {
+            font-size: 18px;
+            line-height: 22px;
+            width: 280px;
+        }
+        &__logo {
+            font-size: 28px;
+            line-height: 38px;
+        }
+        &__menu-item {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .promo {
+        padding-top: 90px;
+        &__inner {
+            margin-bottom: 55px;
+        }
+        &__image {
+            width: 460px;
+        }
+        &__title {
+            font-size: 54px;
+            line-height: 70px;
+        }
+        &__subtitle {
+            font-size: 34px;
+            line-height: 46px;
+            margin-bottom: 45px;
+        }
+        &__content {
+            padding-top: 40px;
+        }
+        &__descr {
+            font-size: 24px;
+            line-height: 33px;
+        }
+        &__item-title {
+            font-size: 22px;
+        }
+        &__item-descr {
+            font-size: 19px;
+        }
+    }
+    .title {
+        font-size: 46px;
+        line-height: 62px;
+    }
+    .advantages {
+        padding-top: 95px;
+        &__title {
+            margin-bottom: 60px;
+        }
+        &__item {
+            width: 575px;
+            padding-left: 25px;
+        }
+        &__item-title {
+            font-size: 26px;
+            line-height: 34px;
+            &--four {
+                width: 355px;
+            }
+        }
+        &__item-title-bold {
+            font-size: 26px;
+            line-height: 34px;
+        }
+        &__item-image {
+            width: 37%;
+        }
+    }
+    .calc {
+        padding-top: 95px;
+        &__title {
+            margin-bottom: 60px;
+        }
+        &__box {
+            width: 550px;
+        }
+        &__content-result {
+            width: 600px;
+        }
+        &__content-wrap-button {
+            width: 295px;
+        }
+        &__content-wrap-descr {
+            width: 295px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        &__content-wrap {
+            width: 600px;
+        }
+        &__content-wrap-block {
+            padding: 33px 33px;
+            width: 295px;
+        }
+        &__content-result-title {
+            font-size: 28px;
+            line-height: 44px;
+        }
+        &__content-result-text {
+            margin-left: 12px;
+        }
+        &__content-wrap-title {
+            font-size: 44px;
+            line-height: 58px;
+        }
+    }
+    .profit {
+        padding-top: 90px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__box-item {
+            width: 180px;
+            font-size: 18px;
+        }
+    }
+    .steps {
+        padding-top: 90px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__item {
+            width: 290px;
+        }
+        &__item-text {
+            font-size: 22px;
+        }
+    }
+    .about {
+        padding-top: 90px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__image {
+            width: 505px;
+        }
+    }
+    .help {
+        padding-top: 90px;
+        &__block-title {
+            font-size: 40px;
+        }
+    }
+    .simply {
+        padding-top: 90px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__item {
+            width: 333px;
+            &--one,
+            &--two {
+                &::before {
+                    width: 130px;
+                    right: -100px;
+                }
+            }
+        }
+    }
+    .quiz {
+        padding-top: 90px;
+        &__card-inner {
+            width: 750px;
+            margin-bottom: 55px;
+        }
+        &__list {
+            &__text {
+                font-size: 24px;
+            }
+        }
+        &__card-image {
+            width: 420px;
+        }
+        &__card-title {
+            font-size: 46px;
+        }
+        &__card-subtitle {
+            font-size: 38px;
+        }
+    }
+    .last {
+        &__card-title {
+            font-size: 46px;
+        }
+        &__card-descr {
+            width: 818px;
+        }
+        &__card-subdescr {
+            font-size: 38px;
+        }
+        &__card-image {
+            width: 380px;
+        }
+    }
+    .faq {
+        padding-top: 90px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__item {
+            &__title {
+                font-size: 21px;
+                padding-left: 35px;
+            }
+        }
+    }
+    .profitably {
+        padding-top: 90px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__item {
+            padding-top: 30px;
+            padding-left: 30px;
+            width: 575px;
+        }
+        &__item-descr {
+            width: 485px;
+        }
+    }
+    .auto-scroll {
+        padding-top: 90px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        .slider {
+            padding: 35px 0;
+        }
+    }
+    .reviews {
+        padding: 90px 0;
+        &__title {
+            margin-bottom: 55px;
+        }
+    }
+    .footer {
+        padding-bottom: 61px;
+        &__logo {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        &__work-schedule {
+            font-size: 28px;
+            line-height: 40px;
+        }
+        &__text {
+            font-size: 17px;
+            line-height: 23px;
+        }
+        &__address {
+            font-size: 17px;
+            line-height: 23px;
+        }
+        &__worktime {
+            font-size: 19px;
+            line-height: 27px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .header {
+        padding-top: 20px;
+        &__nav {
+            display: none;
+        }
+        &__button {
+            display: none;
+        }
+        &__burger {
+            display: flex;
+        }
+    }
+    .promo {
+        padding-top: 75px;
+        &__inner {
+            margin-bottom: 50px;
+        }
+        &__image {
+            width: 330px;
+        }
+        &__title {
+            font-size: 48px;
+            line-height: 64px;
+        }
+        &__item {
+            text-align: center;
+        }
+        &__item-descr {
+            margin: 0 auto;
+        }
+        &__subtitle {
+            font-size: 30px;
+            line-height: 36px;
+        }
+        &__content {
+            padding-top: 25px;
+        }
+        &__items {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &__descr {
+            width: 620px;
+        }
+    }
+    .advantages {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__item {
+            padding-top: 80px;
+            width: 475px;
+            height: 255px;
+        }
+        &__item-image {
+            width: 43%;
+        }
+        &__item-title {
+            font-size: 24px;
+            line-height: 32px;
+            &--one {
+                width: 255px;
+            }
+            &--four {
+                width: 310px;
+            }
+        }
+        &__item-title-bold {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+    .title {
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .button {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .calc {
+        padding-top: 75px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__box {
+            padding: 50px 45px 45px;
+            width: 470px;
+            min-height: 295px;
+        }
+        &__content-result {
+            width: 470px;
+        }
+        &__content-wrap {
+            width: 470px;
+        }
+        &__content-wrap-button {
+            width: 230px;
+        }
+        &__content-wrap-descr {
+            width: 230px;
+            font-size: 13px;
+            line-height: 16px;
+        }
+        &__content-wrap-block {
+            width: 230px;
+            padding: 33px 15px;
+        }
+        &__content-wrap-title {
+            font-size: 40px;
+            line-height: 52px;
+        }
+        &__content-wrap-text {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__content-result-inner {
+            flex-wrap: wrap;
+        }
+        &__conent-title {
+            font-size: 26px;
+        }
+    }
+    .profit {
+        padding-top: 75px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__box {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+        &__box-item {
+            width: 280px;
+            height: 55px;
+        }
+        &__tab {
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .steps {
+        padding-top: 75px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__items {
+            justify-content: center;
+        }
+        &__item {
+            width: 315px;
+        }
+    }
+    .about {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 55px;
+            line-height: 46px;
+        }
+        &__image {
+            width: 450px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .help {
+        padding-top: 70px;
+        &__block {
+            padding: 35px 10px;
+        }
+        &__block-title {
+            font-size: 34px;    
+        }
+        &__block-text {
+            width: 650px;
+        }
+    }
+    .simply {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__item {
+            width: 250px;
+            &--one,
+            &--two {
+                &::before {
+                    width: 100px;
+                }
+            }
+        }
+        &__item-title {
+            font-size: 26px;
+        }
+    }
+    .quiz {
+        padding-top: 70px;
+        &__card-inner {
+            margin-bottom: 55px;
+        }
+        &__card-image {
+            display: none;
+        }
+    }
+    .last {
+        &__card-image {
+            display: none;
+        }
+    }
+    .profitably {
+        padding-top: 75px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__item {
+            width: 470px;
+        }
+        &__item-descr {
+            width: 435px;
+        }
+    }
+    .faq {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        &__item {
+            &__title {
+                line-height: 30px;
+                padding-left: 25px;
+            }
+        }
+        &__image {
+            width: 270px;
+        }
+    }
+    .slider {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 55px;
+        }
+        .slider {
+            padding: 30px 0;
+        }
+    }
+    .reviews {
+        padding: 75px 0;
+        &__title {
+            margin-bottom: 55px;
+        }
+    }
+    .footer {
+        padding-top: 35px;
+        padding-bottom: 45px;
+        text-align: center;
+        &__inner {
+            flex-direction: column;
+        }
+        &__text {
+            margin-bottom: 25px;
+        }
+        &__descr {
+            margin: 0 auto 25px;
+        }
+        &__right {
+            text-align: center;
+        }
+        &__work-schedule {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+    }
+    .promo {
+        padding-top: 60px;
+        &__image {
+            display: none;
+        }
+        &__image-mobile {
+            display: block;
+            margin: 0 auto 15px;
+        }
+        &__inner {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 45px;
+        }
+        &__content {
+            padding-top: 0;
+        }
+        &__title {
+            font-size: 42px;
+            line-height: 58px;
+        }
+        &__subtitle {
+            font-size: 28px;
+            line-height: 34px;
+            margin-bottom: 40px;
+        }
+        &__descr {
+            width: 535px;
+            font-size: 22px;
+            line-height: 29px;
+        }
+        &__item {
+            text-align: center;
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item-descr {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+    .advantages {
+        padding-top: 70px;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__items {
+            justify-content: center;
+        }
+    }
+    .title {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .calc {
+        padding-top: 70px;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__box {
+            margin-bottom: 20px;
+            width: 475px;
+        }
+        &__content-result {
+            width: 475px;
+        }
+        &__content-wrap {
+            width: 475px;
+        }
+    }
+    .profit {
+        padding-top: 70px;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__inner {
+            flex-direction: column-reverse;
+        }
+        &__tab {
+            min-height: 350px;
+            margin-bottom: 20px;
+            background-size: unset;
+        }
+        &__box {
+            margin-bottom: 0;
+        }
+    }
+    .steps {
+        padding-top: 70px;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    }
+    .about {
+        padding-top: 70px;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__inner {
+            flex-direction: column;
+        }
+        &__descr {
+            text-align: center;
+            margin: 0 auto 40px;
+        }
+        &__image {
+            width: 475px;
+        }
+    }
+    .help {
+        &__block-title {
+            font-size: 32px;
+        }
+        &__block-text {
+            font-size: 24px;
+        }
+    }
+    .simply {
+        padding-top: 70px;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__items {
+            flex-direction: column;
+        }
+        &__item {
+            position: relative;
+            width: 485px;
+            margin-bottom: 168px;
+            &--one,
+            &--two  {
+                &::before {
+                    display: none;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -155px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 69px;
+                    height: 138px;
+                    background: url('../img/simply/simply-arrow-before.png') center no-repeat;
+                }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .quiz {
+        padding-top: 70px;
+        &__card {
+            padding-left: 40px;
+        }
+        &__card-title {
+            font-size: 44px;
+        }
+        &__card-descr {
+            font-size: 26px;
+            width: 700px;
+        }
+        &__card-inner {
+            width: 700px;
+            margin-bottom: 50px;
+        }
+        &__list {
+            &__text {
+                font-size: 22px;
+            }
+        }
+    }
+    .last {
+        &__card {
+            padding-left: 40px;
+        }
+        &__card-title {
+            font-size: 44px;
+        }
+        &__card-descr {
+            width: 700px;
+            font-size: 26px;
+        }
+    }
+    .profitably {
+        padding-top: 70px;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__items {
+            flex-direction: column;
+        }
+        &__item {
+            width: 475px;
+            min-height: 410px;
+            margin-bottom: 25px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item-text {
+            font-size: 20px;
+        }
+        &__item-text-one,
+        &__item-text-two {
+            font-size: 20px;
+        }
+    }
+    .faq {
+        padding-top: 70px;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__image {
+            display: none;
+        }
+        &__inner {
+            padding-right: 0;
+        }
+        &__item {
+            &__title {
+                font-size: 20px;
+            }
+            &__text {
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+    .auto-scroll {
+        padding-top: 70px;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .slider {
+            padding: 28px 0;
+        }
+    }
+    .reviews {
+        padding: 70px 0;
+        &__title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__text {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        padding-top: 40px;
+        &__title {
+            font-size: 36px;
+            line-height: 44px;
+        }
+        &__subtitle {
+            font-size: 26px;
+            line-height: 32px;
+        }
+    }
+    .advantages {
+        &__title {
+            margin-bottom: 45px;
+        }
+    }
+    .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .calc {
+        &__title {
+            margin-bottom: 45px;
+        }
+    }
+    .profit {
+        padding-top: 40px;
+        &__title {
+            margin-bottom: 45px;
+        }
+        &__box-item {
+            width: 255px;
+        }
+        &__tab-item {
+            font-size: 22px;
+        }
+    }
+    .steps {
+        padding-top: 40px;
+        &__title {
+            margin-bottom: 45px;
+        }
+        &__item {
+            width: 270px;
+        }
+        &__item-text {
+            font-size: 20px;
+        }
+    }
+    .about {
+        padding-top: 40px;
+        &__title {
+            margin-bottom: 45px;
+        }
+    }
+    .help {
+        padding-top: 40px;
+        &__block-title {
+            font-size: 28px;
+        }
+        &__block-text {
+            width: 500px;
+        }
+    }
+    .simply {
+        padding-top: 40px;
+        &__title {
+            margin-bottom: 45px;
+        }
+        &__item {
+            width: 395px;
+        }
+    }
+    .quiz {
+        padding-top: 40px;
+        &__card {
+            padding: 30px;
+        }
+        &__card-inner {
+            width: 400px;
+            flex-direction: column;
+            margin: 0 auto;
+            margin-bottom: 45px;
+        }
+        &__card-title {
+            font-size: 34px;
+            text-align: center;
+        }
+        &__card-descr {
+            text-align: center;
+            font-size: 22px;
+            width: 475px;
+        }
+        &__card-subtitle {
+            text-align: center;
+            font-size: 27px;
+        }
+        &__list {
+            &__label {
+                width: 100%;
+            }
+        }
+        &__card-button {
+            width: 230px;
+        }
+    }
+    .last {
+        &__card {
+            padding: 30px;
+        }
+        &__card-title {
+            font-size: 34px;
+            text-align: center;
+        }
+        &__card-descr {
+            font-size: 22px;
+            width: 475px;
+            text-align: center;
+        }
+        &__card-subtitle {
+            text-align: center;
+        }
+        &__card-subdescr {
+            font-size: 27px;
+            text-align: center;
+        }
+        &__button {
+            width: 230px;
+        }
+        &__card-form {
+            text-align: center;
+        }
+        &__card-form-copy {
+            width: 480px;
+            font-size: 14px;
+        }
+    }
+    .faq {
+        padding-top: 40px;
+        &__title {
+            margin-bottom: 45px;
+        }
+        &__item {
+            &--active {
+                .faq__item__text {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+            }
+            &__title {
+                padding-right: 25px;
+            }
+        }
+    }
+    .auto-scroll {
+        padding-top: 40px;
+        &__title {
+            margin-bottom: 45px;
+        }
+    }
+    .reviews {
+        padding: 40px 0;
+        &__title {
+            margin-bottom: 45px;
+        }
+    }
+    .footer {
+        &__menu {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        &__descr {
+            width: 480px;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        &__menu-item {
+            margin-right: 0;
+            margin-bottom: 25px;
+            text-align: center;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .promo {
+        padding-top: 25px;
+        &__title {
+            width: 280px;
+            margin: 0 auto 10px;
+            font-size: 32px;
+            line-height: 42px;
+        }
+        &__subtitle {
+            width: 280px;
+            margin: 0 auto 45px;
+            font-size: 24px;
+            line-height: 32px;
+        }
+        &__button {
+            width: 280px;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+        &__descr {
+            text-align: center;
+            width: 280px;
+            font-size: 20px;
+            line-height: 26px;
+        }
+        &__item {
+            width: 280px;
+        }
+        &__item-title {
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 7px;
+        }
+        &__item-descr {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        &__item-icon {
+            display: none;
+        }
+        &__item-icon-mobile {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    .title {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .advantages {
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__item {
+            padding-top: 16px;
+            padding-bottom: 17px;
+            padding-left: 13px;
+            width: 280px;
+            height: 99px;
+        }
+        &__item-image {
+            display: none;
+        }
+        &__item-image-mobile {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        &__item-title {
+            width: 132px;
+            font-size: 16px;
+            line-height: 21px;
+        }
+        &__item-title-bold {
+            font-size: 16px;
+            line-height: 21px;
+        }
+    }
+    .calc {
+        &__title {
+            width: 280px;
+            margin: 0 auto 40px;
+        }
+        .container {
+            padding: 0;
+        }
+        &__box {
+            padding: 41px 20px 44px;
+            width: 320px;
+            min-height: 267px;
+            margin-bottom: 15px;
+        }
+        &__content-result {
+            padding: 25px 37px 32px;
+            width: 320px;
+            min-height: 253px;
+        }
+        &__content-wrap {
+            width: 280px;
+            flex-direction: column-reverse;
+            margin: 0 auto;
+        }
+        &__content-title {
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+        &__content-result-box {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__content-result-inner {
+            justify-content: center;
+        }
+        &__content-result-text {
+            margin-left: 0;
+            line-height: 21px;
+        }
+        &__content-result-title {
+            line-height: 33px;
+        }
+        &__content-wrap-block {
+            padding: 15px 11px;
+            width: 280px;
+            min-height: 68px;
+            margin-bottom: 20px;
+        }
+        &__content-wrap-title {
+            font-size: 28px;
+            line-height: 38px;
+        }
+        &__content-wrap-text {
+            font-size: 17px;
+            line-height: 21px;
+        }
+        &__content-wrap-button {
+            width: 280px;
+            height: 50px;
+        }
+        &__content-wrap-descr {
+            width: 280px;
+            text-align: center;
+            font-size: 13px;
+            line-height: 19px;
+        }
+        &__block__title {
+            font-size: 16px;
+            line-height: 21px;
+        }
+        &__field {
+            padding: 0 20px 15px;
+            font-size: 18px;
+            line-height: 24px;
+            &--2 {
+                padding-right: 40px;
+            }
+        }
+        &__field__text {
+            font-size: 18px;
+            line-height: 24px;
+            &--year {
+                transform: translateX(-30px);
+            }
+        }
+        &__block {
+            &--one {
+                margin-bottom: 65px;
+            }
+        }
+    }
+    .profit {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__tab {
+            width: 280px;
+            min-height: 169px;
+            margin: 0 auto  15px;
+            border-radius: 5px;
+            &--one {
+                background: url('../img/profit/profit-mobile-1.png') no-repeat;
+            }
+        
+            &--two {
+                background: url('../img/profit/profit-mobile-2.png') no-repeat;
+            }
+        
+            &--three {
+                background: url('../img/profit/profit-mobile-3.png') no-repeat;
+            }
+        
+            &--four {
+                background: url('../img/profit/profit-mobile-4.png') no-repeat;
+            }
+        
+            &--five {
+                background: url('../img/profit/profit-mobile-5.png') no-repeat;
+            }
+        
+            &--six {
+                background: url('../img/profit/profit-mobile-6.png') no-repeat;
+            }
+        }
+        &__tab-menu {
+            padding-left: 30px;
+        }
+        &__tab-item {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        &__box {
+            gap: 0;
+        }
+        &__box-item {
+            width: 280px;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .steps {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__items {
+            row-gap: 25px;
+        }
+        &__item {
+            width: 280px;
+        }
+        &__item-image {
+            display: none;
+        }
+        &__item-image-mobile {
+            display: block;
+            margin: 0 auto 10px; 
+        }
+    }
+    .about {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__image {
+            display: none;
+        }
+        &__image-mobile {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .help {
+        padding-top: 70px;
+        &__block {
+            width: 280px;
+            margin: 0 auto;
+            padding: 25px 0 0 0;
+        }
+        &__block-title {
+            width: 270px;
+            font-size: 24px;
+            margin:0 auto 15px;
+        }
+        &__block-text {
+            font-size: 20px;
+            line-height: 24px;
+            width: 270px;
+            margin-bottom: 25px;
+        }
+        &__block-button {
+            width: 270px;
+            height: 50px;
+        }
+    }
+    .simply {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__item {
+            width: 280px;
+            &::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        &__item-title {
+            font-size: 24px;
+        }
+    }
+    .quiz {
+        padding-top: 70px;
+        .container{
+            padding: 0;
+        }
+        &__card {
+            padding: 20px;
+            padding-right: 19px;
+            min-width: 320px;
+            max-width: 400px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__card-inner {
+            width: 281px;
+            margin-bottom: 45px;
+        }
+        &__card-title {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        &__card-descr {
+            width: 280px;
+            font-size: 20px;
+            margin: 0 auto 20px;
+        }
+        &__card-subtitle {
+            font-size: 24px;
+        }
+        &__list {
+            &__text {
+                font-size: 20px;
+                padding-left: 35px;
+                &::before {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+        &__list__radio {
+            &:checked+.quiz__list__text::before {
+                border: 5px solid #fff;
+                background-color: #EF3124;
+                width: 25px;
+                height: 25px;
+            }
+        }
+        &__button-inner {
+            display: flex;
+            flex-direction: column;
+            width: 280px;
+            margin: 0 auto;
+        }
+        &__card-button {
+            width: 280px;
+            height: 50px;
+            margin-right: 0;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .last {
+        .container {
+            padding: 0;
+        }
+        &__card {
+            padding: 20px;
+            padding-right: 19px;
+            min-width: 320px;
+            max-width: 400px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__card-title {
+            font-size: 28px;
+        }
+        &__card-descr {
+            width: 280px;
+            font-size: 20px;
+            margin: 0 auto 10px;
+        }
+        &__card-subtitle {
+            font-size: 20px;
+            line-height: 26px;
+            margin-bottom: 10px;
+        }
+        &__card-subdescr {
+            font-size: 24px;
+        }
+        &__input-group {
+            margin-bottom: 15px;
+            &--last {
+                margin-bottom: 25px;
+            }
+        }
+        &__input {
+            width: 280px;
+            height: 50px;
+            font-size: 16px;
+        }
+        &__button-inner {
+            display: flex;
+            flex-direction: column;
+            width: 280px;
+            margin: 0 auto 14px;
+        }
+
+        &__button {
+            width: 280px;
+            height: 50px;
+            margin-right: 0;
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__card-form-copy {
+            width: 280px;
+            margin: 0 auto;
+            line-height: 18px;
+        }
+    }
+    .faq {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__item {
+            &__title {
+                padding-top: 8px;
+                padding-right: 17px;
+                padding-bottom: 13px;
+                padding-left: 15px;
+                line-height: 24px;
+            }
+            &__text {
+                font-size: 16px;
+                line-height: 19px;
+            }
+            &--active {
+                .faq__item__text {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 10px;
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+    .profitably {
+        padding-top: 70px;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__item {
+            padding: 27px 25px;
+            width: 280px;
+            min-height: 469px;
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item-title {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        &__item-descr {
+            font-size: 16px;
+            line-height: 19px;
+            width: 230px;
+            margin-bottom: 10px;
+        }
+        &__item-text {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__item-text-one,
+        &__item-text-two {
+            font-size: 18px;
+            line-height: 22px;
+            padding-left: 0;
+        }
+    }
+    .auto-scroll {
+        padding-top: 70px;
+        .container {
+            padding: 0;
+        }
+        &__title {
+            margin-bottom: 40px;
+        }
+        .slider {
+            margin: 0 auto;
+            padding: 24px 0;
+        }
+        // .swiper-slide {
+        //     width: 280px!important
+        // }
+        .slider__item {
+            display: none;
+        }
+        .slider__item-mobile {
+            display: block;
+        }
+        .slider__item-mobile img {
+            width: 100%!important;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+    }
+    .reviews {
+        padding: 70px 0;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__text {
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    .footer {
+        padding: 43px 0;
+        &__descr {
+            width: 280px;
+        }
+        &__address {
+            width: 280px;
+        }
+    }
+}

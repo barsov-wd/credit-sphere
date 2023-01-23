@@ -1,0 +1,19 @@
+.about {
+    padding-top: 140px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        margin-bottom: 80px;
+    }
+    &__descr {
+        font-size: 20px;
+        line-height: 120%;
+        color: #0B1F35;
+    }
+    &__image-mobile {
+        display: none;
+    }
+}

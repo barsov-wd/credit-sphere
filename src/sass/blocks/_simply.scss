@@ -1,0 +1,41 @@
+.simply {
+    padding-top: 140px;
+    &__title {
+        margin-bottom: 80px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 385px;
+        text-align: center;
+        &--one,
+        &--two {
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                right: -211px;
+                top: 0;
+                width: 200px;
+                height: 100px;
+                background: url('../img/simply/simply-arrow.png') center no-repeat;
+            }
+        }
+    }
+    &__item-title {
+        font-family: 'Segoe UI Semibold', sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 120%;
+        color: #0B1F35;
+        margin-bottom: 10px;
+    }
+    &__item-descr {
+        font-size: 20px;
+        line-height: 120%;
+        color: #0B1F35;
+    }
+}

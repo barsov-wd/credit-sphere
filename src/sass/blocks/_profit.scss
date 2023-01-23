@@ -1,0 +1,75 @@
+.profit {
+    padding-top: 140px;
+    &__title {
+        margin-bottom: 80px;
+    }
+    &__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    &__box-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 100px;
+        background: #EEEFF1;
+        border-radius: 5px;
+        font-family: 'Segoe UI Semibold', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        color: #000000;
+        cursor: pointer;
+        &--active {
+            background: #fff;
+            border: 2px solid #EF3124;
+        }
+    }
+    &__tab {
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &--one {
+            background: url('../img/profit/profit-image-1.png') no-repeat;
+        }
+        &--two {
+            background: url('../img/profit/profit-image-2.png') no-repeat;
+        }
+        &--three {
+            background: url('../img/profit/profit-image-3.png') no-repeat;
+        }
+        &--four {
+            background: url('../img/profit/profit-image-4.png') no-repeat;
+        }
+        &--five {
+            background: url('../img/profit/profit-image-5.png') no-repeat;
+        }
+        &--six {
+            background: url('../img/profit/profit-image-6.png') no-repeat;
+        }
+    }
+    &__tab-menu {
+        list-style: disc!important;
+        padding-left: 135px;
+    }
+    &__tab-item {
+        list-style: disc !important;
+        font-family: 'Segoe UI Semibold', sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

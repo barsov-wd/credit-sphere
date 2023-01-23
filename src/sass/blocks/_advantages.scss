@@ -1,0 +1,54 @@
+.advantages {
+    padding-top: 140px;
+    &__title {
+        margin-bottom: 80px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    &__item {
+        position: relative;
+        padding-top: 112px;
+        padding-left: 40px;
+        width: 790px;
+        height: 300px;
+        border: 5px solid #DBDEE1;
+        border-radius: 5px;
+    }
+    &__item-title {
+        font-size: 28px;
+        line-height: 38px;
+        color: #0B1F35;
+        &--one {
+            width: 274px;
+        }
+        &--two {
+            width: 249px;
+        }
+        &--three {
+            width: 199px;
+        }
+        &--four {
+            width: 378px;
+        }
+    }
+    &__item-title-bold {
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 38px;
+        color: #EF3124;
+    }
+    &__item-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    &__item-image-mobile {
+        display: none;
+    }
+}

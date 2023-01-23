@@ -1,0 +1,20 @@
+.auto-scroll {
+    padding-top: 140px;
+    &__title {
+        margin-bottom: 80px;
+    }
+    .slider {
+        padding: 43px 0;
+        border-top: 2px solid #0B1F35;
+        border-bottom: 2px solid #0B1F35;
+        overflow: hidden;
+        z-index: 5;
+    }
+    .slider__item {
+        text-align: center;
+    }
+    .slider__item-mobile {
+        display: none;
+    }
+}
+

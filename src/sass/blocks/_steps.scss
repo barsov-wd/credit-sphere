@@ -1,0 +1,27 @@
+.steps {
+    padding-top: 140px;
+    &__title {
+        margin-bottom: 80px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    &__item {
+        width: 385px;
+        text-align: center;
+    }
+    &__item-image-mobile {
+        display: none;
+    }
+    &__item-text {
+        font-family: 'Segoe UI Semibold', sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 120%;
+        color: #0B1F35;
+    }
+}

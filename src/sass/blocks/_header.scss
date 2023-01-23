@@ -1,0 +1,59 @@
+.header {
+    padding-top: 25px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 43px;
+        color: #EF3124;
+        &--black {
+            color: #414141;
+        }
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+    }
+    &__menu-item {
+        font-size: 20px;
+        line-height: 27px;
+        color: #0B1F35;
+        margin-right: 25px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__button {
+        width: 350px;
+        height: 60px;
+        background-color: #0B1F35;
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 27px;
+        color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    &__burger {
+        width: 40px;
+        height: 25px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        cursor: pointer;
+    }
+    &__burger__line {
+        width: 100%;
+        height: 5px;
+        border-radius: 5px;
+        background: #EF3124;
+    }
+}

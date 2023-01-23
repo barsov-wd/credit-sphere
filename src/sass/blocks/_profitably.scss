@@ -1,0 +1,93 @@
+.profitably {
+    padding-top: 140px;
+    &__title {
+        margin-bottom: 80px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        padding-top: 38px;
+        padding-left: 80px;
+        width: 790px;
+        min-height: 409px;
+        border-radius: 5px;
+        &--one {
+            background: #DBDEE1;
+        }
+        &--two {
+            border: 5px solid #EEEFF1;
+            background: #fff;
+        }
+    }
+    &__item-title {
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 120%;
+        margin-bottom: 35px;
+        &--one {
+            color: #0B1F35;
+        }
+        &--two {
+            color: #EF3124;
+        }
+    }
+    &__item-descr {
+        font-size: 20px;
+        line-height: 120%;
+        color: #0B1F35;
+        margin-bottom: 30px;
+        width: 630px;
+        &--bold {
+            font-family: 'Segoe UI Semibold', sans-serif;
+            font-weight: 600;
+        }
+        &--color {
+            font-family: 'Segoe UI Semibold', sans-serif;
+            font-weight: 600;
+            color: #EF3124;
+        }
+    }
+    &__item-text {
+        position: relative;
+        font-size: 24px;
+        line-height: 120%;
+        color: #0B1F35;
+        padding-left: 20px;
+        margin-bottom: 5px;
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 5px;
+            height: 5px;
+            background: #0B1F35;
+            border-radius: 100%
+        }
+        &--two {
+            font-family: 'Segoe UI Black', sans-serif;
+            font-weight: 900;
+            color: #EF3124;
+        }
+    }
+    &__item-text-one {
+        font-size: 24px;
+        line-height: 120%;
+        padding-left: 10px;
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+    }
+    &__item-text-two {
+        font-size: 24px;
+        line-height: 120%;
+        padding-left: 10px;
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        color: #EF3124;
+    }
+}

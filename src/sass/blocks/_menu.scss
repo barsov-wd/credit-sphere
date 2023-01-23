@@ -1,0 +1,83 @@
+.menu {
+    position: fixed;
+    z-index: 198;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    justify-content: flex-end;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    overflow: hidden;
+    display: flex;
+}
+
+.menu--active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu--active .menu__dialog {
+    transform: none;
+}
+
+.menu__dialog {
+    position: relative;
+    background: #EEEFF1;
+    padding: 70px 20px 100px;
+    min-height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s;
+    transform: translateX(100%);
+}
+
+.menu__tel {
+    width: 280px;
+    height: 50px;
+    background: #0B1F35;
+    color: #fff;
+}
+
+.menu__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    color: #494C50;
+    margin-bottom: 35px;
+}
+
+.menu__box--1 {
+    margin-bottom: 30px;
+}
+
+.menu__link {
+    display: block;
+    font-size: 24px;
+    line-height: 100%;
+    color: #0B1F35;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.menu__link:last-child {
+    margin-bottom: 0;
+}
+
+.menu__logo {
+    margin-bottom: 100px;
+}
+
+.menu__close {
+    position: absolute;
+    top: 20px;
+    right: 21px;
+    cursor: pointer;
+}

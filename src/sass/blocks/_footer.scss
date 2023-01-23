@@ -1,0 +1,75 @@
+.footer {
+    background: #EEEFF1;
+    padding-top: 40px;
+    padding-bottom: 71px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 43px;
+        color: #EF3124;
+        margin-bottom: 20px;
+
+        &--black {
+            color: #414141;
+        }
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 27px;
+        color: #0B1F35;
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        margin-bottom: 29px;
+    }
+
+    &__menu-item {
+        font-size: 20px;
+        line-height: 27px;
+        color: #0B1F35;
+        margin-right: 25px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__descr {
+        width: 703px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 27px;
+        color: #0B1F35;
+    }
+    &__right {
+        text-align: right;
+    }
+    &__work-schedule {
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 43px;
+        text-align: right;
+        color: #EF3124;
+        margin-bottom: 10px;
+    }
+    &__worktime {
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 27px;
+        color: #0B1F35;
+    }
+    &__address {
+        width: 302px;
+        font-size: 20px;
+        line-height: 27px;
+        color: #0B1F35;
+    }
+}
