@@ -1664,6 +1664,8 @@
             margin-bottom: 40px;
         }
         &__item {
+            display: flex;
+            align-items: center;
             padding-top: 16px;
             padding-bottom: 17px;
             padding-left: 13px;
@@ -1699,13 +1701,18 @@
         }
         &__box {
             padding: 41px 20px 44px;
-            width: 320px;
+            min-width: 320px;
+            max-width: 576px;
+            width: 100%;
             min-height: 267px;
             margin-bottom: 15px;
         }
+        &__content {
+            width: 100%;
+        }
         &__content-result {
             padding: 25px 37px 32px;
-            width: 320px;
+            width: 100%!important;
             min-height: 253px;
         }
         &__content-wrap {
@@ -1714,6 +1721,7 @@
             margin: 0 auto;
         }
         &__content-title {
+            text-align: center;
             font-size: 24px;
             margin-bottom: 25px;
         }
@@ -1727,6 +1735,7 @@
             }
         }
         &__content-result-inner {
+            flex-direction: column;
             justify-content: center;
         }
         &__content-result-text {
@@ -1871,10 +1880,14 @@
     }
     .help {
         padding-top: 70px;
+        .container {
+            padding: 0 10px;
+        }
         &__block {
-            width: 280px;
+            width: 300px;
+            border: 3px solid #dbdee1;
             margin: 0 auto;
-            padding: 25px 0 0 0;
+            padding: 24px 13px 25px;
         }
         &__block-title {
             width: 270px;
@@ -1884,7 +1897,7 @@
         &__block-text {
             font-size: 20px;
             line-height: 24px;
-            width: 270px;
+            width: 274px;
             margin-bottom: 25px;
         }
         &__block-button {
@@ -2117,12 +2130,9 @@
         .slider__item-mobile {
             display: block;
         }
-        .slider__item-mobile img {
-            width: 100%!important;
-            height: auto;
-            object-fit: contain;
-            display: block;
-        }
+        // .slider__item-mobile img {
+        //     width: 100%!important;
+        // }
     }
     .reviews {
         padding: 70px 0;
