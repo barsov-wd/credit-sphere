@@ -223,15 +223,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const sl = new Swiper(slider, {
         loop: true,
         speed: 4000,
-        slidesPerView: '2.7',
+        slidesPerView: 2.7,
         autoplay: {
             enabled: true,
             delay: 0,
         },
         breakpoints: {
-            320: {
+            575: {
                 spaceBeetwen: 12,
-                slidesPerView: '1',
+                slidesPerView: 1,
             },
             // when window width is >= 575px
             576: {
