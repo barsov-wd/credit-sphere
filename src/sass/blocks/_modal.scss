@@ -60,4 +60,95 @@
         width: 100%;
         max-width: 1060px;
     }
+    &-main__dialog {
+        text-align: center;
+        border-radius: 5px;
+        position: relative;
+        background: #EEEFF1;
+        padding-top: 90px;
+        padding-bottom: 100px;
+        width: 100%;
+        max-width: 1060px;
+    }
+    &-main__close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+    }
+    &-main__title {
+        font-family: 'Segoe UI Black', sans-serif;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 65px;
+        color: #EF3124;
+        margin-bottom: 30px;
+    }    
+    &__select {
+        position: relative;
+        font-family: 'Rubik Regular', sans-serif;
+        width: 390px;
+        height: 60px;
+        border: none;
+        border: 1px solid #0B1F35;
+        border-radius: 5px;
+        padding: 18px;
+        font-size: 20px;
+        color: #0B1F35;
+        appearance: none;
+        background: #fff url('../img/modal/arrow-custom.svg') no-repeat right;
+        background-position-x: calc(100% - 20px);
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+    }
+    &-main__input-group {
+        margin-bottom: 25px;
+    }
+    &-main__button {
+        width: 403px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    &-main__text {
+        width: 810px;
+        font-family: 'Segoe UI Semibold', sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 120%;
+        text-align: center;
+        color: #000000;
+        margin: 0 auto 40px;
+    }   
+    &-main__input {
+        font-family: 'Rubik Regular', sans-serif;
+        width: 390px;
+        height: 60px;
+        background: #FFFFFF;
+        border: none;
+        box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 21px;
+        color: rgba(11, 31, 53, 0.5);
+
+        &::placeholder {
+            color: rgba(11, 31, 53, 0.5);
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+    &-main__copy {
+        width: 405px;
+        font-size: 16px;
+        line-height: 21px;
+        color: rgba(11, 31, 53, 0.5);
+        margin: 0 auto;
+    }
 }

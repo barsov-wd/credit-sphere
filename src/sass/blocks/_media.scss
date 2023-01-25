@@ -1420,6 +1420,10 @@
             padding-top: 160px;
             padding-bottom: 141px;
         }
+        &-main__text {
+            width: 660px;
+            font-size: 24px;
+        }
     }
 }
 
@@ -1625,6 +1629,17 @@
         &-thanks__title {
             font-size: 44px;
             line-height: 60px;
+        }
+        &-main__text {
+            width: 480px;
+            font-size: 22px;
+        }
+        &-main__title {
+            margin-bottom: 25px;
+        }
+        &-main__dialog {
+            padding-top: 81px;
+            padding-bottom: 85px;
         }
     }
 }
@@ -2196,6 +2211,51 @@
         &-thanks__dialog {
             padding-top: 120px;
             padding-bottom: 100px;
+        }
+        &-main__title {
+            font-size: 28px;
+            line-height: 34px;
+            margin-bottom: 20px;
+        }
+        &-main__dialog {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        &-main__text {
+            width: 270px;
+            font-size: 18px;
+            margin: 0 auto 25px;
+        }
+        &-main__input {
+            width: 280px;
+            height: 50px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &-main__input-group {
+            margin-bottom: 17px;
+        }
+        &-main__close {
+            width: 25px;
+            height: 25px;
+            top: 20px;
+            right: 20px;
+        }
+        &-main__button {
+            width: 280px;
+            height: 50px;
+        }
+        &-main__copy {
+            width: 280px;
+            font-size: 13px;
+            line-height: 16px;
+        }
+        &__select {
+            padding: 14px;
+            font-size: 16px;
+            line-height: 16px;
+            width: 280px;
+            height: 50px;
         }
     }
 }
